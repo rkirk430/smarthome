@@ -38,6 +38,7 @@ body {
     /* line-height = distance between lines of text */
     line-height: 1.7;
     background: var(--color-white);
+    /* background: black; */
 }
 
 .container {
@@ -171,3 +172,13 @@ nav button {
 /* ================================================================= */
                             /* Header Section  */
 /* ================================================================= */
+
+.header__container{
+    padding-top: 9rem;
+    text-align: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+}

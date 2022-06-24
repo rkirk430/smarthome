@@ -247,9 +247,41 @@ header p {
 }
 
 
+/* ================================================================= */
+                            /* About Section  */
+/* ================================================================= */
+
+.about__title {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.about__article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.about__article-title {
+    color: var(--color-black);
+    margin-bottom: 1.5rem;
+}
+
+.about__article .btn {
+    margin-top: 2.4rem;
+}
+
+
+
+
+
+
+
 /* About Styling - MY VERSION */
 
-.about__header {
+/* .about__header {
     text-align: center;
 }
 
@@ -271,4 +303,4 @@ header p {
 
 .aboutus__container h2 {
     font-weight: 400;
-}
+} */

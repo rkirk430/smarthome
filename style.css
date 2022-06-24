@@ -273,7 +273,32 @@ header p {
     margin-top: 2.4rem;
 }
 
+/* ================================================================= */
+                            /* Client Section  */
+/* ================================================================= */
 
+#clients {
+    text-align: center;
+}
+
+.clients__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.clients__container div {
+    background: var(--color-light);
+    display: grid;
+    place-items: center;
+    height: 8rem;
+    padding: 3rem;
+    transition: all 300ms ease;
+}
+
+.clients__container div:hover{
+    background: var(--color-white);
+}
 
 
 

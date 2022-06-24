@@ -227,7 +227,6 @@ header p {
 }
 
 .header__socials {
-    background: red;
     position: absolute;
     left: 3rem;
     top: 38%;
@@ -245,4 +244,31 @@ header p {
     position: absolute;
     right: 0;
     margin-top: -24rem;
+}
+
+
+/* About Styling - MY VERSION */
+
+.about__header {
+    text-align: center;
+}
+
+.aboutus__container {
+    display: flex;
+    align-items: center;
+    width: var(--container-width);
+}
+
+.aboutus__container img {
+    width: 50%;
+}
+
+.aboutus-text {
+    padding: 2rem;
+    text-align: left;
+    font-size: .8vw;
+}
+
+.aboutus__container h2 {
+    font-weight: 400;
 }

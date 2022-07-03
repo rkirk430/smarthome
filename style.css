@@ -635,4 +635,35 @@ footer ul li a:hover {
     nav button i {
         font-size: 2.4rem;
     }
+
+    /* ------ Header Section - Tablet -------------- */
+    header {
+        padding-bottom: var(--bottom-section-padding-mobile);
+        background: var(--color-primary);
+    }
+    
+    .header__title {
+        margin-bottom: 1.5rem;
+    }
+    
+    .header__image {
+        display: none;
+    }
+    
+    .cta {
+        margin-top: 3rem;
+    }
+    
+    .header__socials {
+        top: 24%;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+    
+    .header__decorator-2 {
+        display: none;
+    }
+
+    /* ------ About Section - Tablet ------------------*/
+
 }

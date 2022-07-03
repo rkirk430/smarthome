@@ -665,5 +665,23 @@ footer ul li a:hover {
     }
 
     /* ------ About Section - Tablet ------------------*/
+    #about {
+        margin-top: 7rem;
+    }
+    
+    .about__article {
+        margin: 0 auto;
+    }
+
+    /* ------ Client Section - Tablet ------------------*/
+    .clients__container {
+        gap: 1rem;
+    }
+
+    /* ------ Testimonials Section - Tablet ------------------*/
+    .testimonials__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
 
 }

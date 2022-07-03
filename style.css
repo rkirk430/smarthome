@@ -42,7 +42,7 @@ body {
 }
 
 .container {
-    width: var(--containter-width);
+    width: var(--container-width);
     margin: 0 auto;
 }
 
@@ -132,6 +132,12 @@ nav {
     left: 0;
     z-index: 2;
     background: var(--color-primary);
+}
+
+.window-scroll {
+    background: var(--color-primary);
+    border-bottom: 1px solid var(--color-white);
+    box-shadow: 0 1rem 1rem var(--color-primary-variant);
 }
 
 .nav__container {
@@ -522,29 +528,3 @@ footer ul li a:hover {
     gap: 1rem;
     font-size: 1.4rem;
 }
-
-/* About Styling - MY VERSION */
-
-/* .about__header {
-    text-align: center;
-}
-
-.aboutus__container {
-    display: flex;
-    align-items: center;
-    width: var(--container-width);
-}
-
-.aboutus__container img {
-    width: 50%;
-}
-
-.aboutus-text {
-    padding: 2rem;
-    text-align: left;
-    font-size: .8vw;
-}
-
-.aboutus__container h2 {
-    font-weight: 400;
-} */

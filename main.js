@@ -15,3 +15,25 @@ closeBtn.addEventListener("click", () => {
     menuBtn.style.display = 'inline-block'; //Displays Nav dropdown picture link after clicking 
     closeBtn.style.display = 'none'; // Removes close button from view
 })
+
+//Show / Hide FAQs
+
+const faqs = document.querySelectorAll('.faq');
+
+faqs.forEach( faq => {
+    faq.addEventListener("click", () => {
+        faq.classList.toggle('open');
+        //Change from a + icon and once it is toggle('open') change to a - icon
+        const icon = faq.querySelector('.faq__icon i');
+        if(icon.className === 'uil uil-plus') {
+            icon.className = 'uil uil-minus';
+        } else {
+            icon.className = 'uil uil-plus';
+        }
+    })
+})
+
+//Add background style to NavBar
+window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0);
+})
